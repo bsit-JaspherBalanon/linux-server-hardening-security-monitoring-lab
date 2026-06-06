@@ -36,7 +36,7 @@ This project demonstrates the deployment, hardening, and monitoring of an Ubuntu
 
 ## Architecture Diagram
 
-![Architecture Diagram](architecture-diagram.png)
+![Architecture Diagram](diagrams/architecture-diagram.png)
 
 ## Screenshots
 
