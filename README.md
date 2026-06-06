@@ -34,9 +34,9 @@ This project demonstrates the deployment, hardening, and monitoring of an Ubuntu
 - Intrusion Prevention
 - Virtualization
 
-## Architecture
+## Architecture Diagram
 
-![Architecture](diagrams/architecture-diagram.png)
+![Architecture Diagram](diagrams/architecture-diagram.png)
 
 ## Screenshots
 
