@@ -1,0 +1,45 @@
+# Installation Guide
+
+## Environment Configuration
+
+* Oracle VirtualBox
+* Ubuntu Server
+* 4 GB RAM
+* 50 GB Storage
+
+## Installation Process
+
+### Step 1: Create Virtual Machine
+
+* Open Oracle VirtualBox
+* Create a new VM
+* Allocate memory and storage
+* Attach Ubuntu Server ISO
+
+### Step 2: Install Ubuntu Server
+
+* Configure keyboard layout
+* Configure network settings
+* Configure storage settings
+* Create user account
+* Install OpenSSH Server
+
+### Step 3: Update System
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+### Step 4: Install Security Tools
+
+```bash
+sudo apt install htop net-tools ufw fail2ban rsyslog -y
+```
+
+### Step 5: Verify Installation
+
+```bash
+sudo systemctl status fail2ban
+sudo ufw status
+```
