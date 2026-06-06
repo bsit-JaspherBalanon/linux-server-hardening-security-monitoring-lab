@@ -40,9 +40,13 @@ This project demonstrates the deployment, hardening, and monitoring of an Ubuntu
 
 ## Screenshots
 
+### Ubuntu Login
+
+![Login](screenshots/ubuntu-login-successful.png)
+
 ### UFW Firewall Active
 
-![UFW](screenshots/ufw-active.png)
+![UFW](screenshots/ufw-active-status.png)
 
 ### Fail2Ban Running
 
@@ -51,6 +55,14 @@ This project demonstrates the deployment, hardening, and monitoring of an Ubuntu
 ### Authentication Log Monitoring
 
 ![Logs](screenshots/auth-log-monitoring.png)
+
+### Failed Login Event Detection
+
+![Failed Login](screenshots/failed-login-event.png)
+
+### System Monitoring
+
+![System Monitoring](screenshots/system-monitoring.png)
 
 ## Security Event Simulation
 
